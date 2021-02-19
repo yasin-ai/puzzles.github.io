@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    
+    color: #555;
+    margin: 0;
+    background: url(https://static4.depositphotos.com/1000992/512/i/950/depositphotos_5125727-stock-photo-old-paper-background-vintage-rose.jpg);
+
+}
+
+.container {
+    max-width: 100rem;
+    width: 100%;
+    
+}
+
+.sr-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/* .mainHeader */
+
+.mainHeader {
+    background: white;
+    padding: 1rem 3rem;
+    box-shadow: 0 0.1rem 1.4rem rgba(0, 0, 0, 0.1);
+    
+    margin-top: 30px;
+    
+}
+
+.mainHeader__appName {
+    margin: 0;
+    font-weight: BOLD;
+    font-size: 2.6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.twitterLink {
+    display: block;
+    height: 3.6rem;
+    box-sizing: content-box;
+    padding: 1rem;
+}
+
+.twitterLink > svg {
+  max-height: 100%;
+  max-width: 40px;
+}
+
+/* .gameArea */
+.app{
+   margin-left: 150px;
+    
+}
+.gameArea {
+    margin-top: 3rem;
+    overflow: hidden;
+    width: 33%;
+    float: left;
+    padding: 20px;
+   
+}
+
+.gameArea__gameWrapper {
+    background: white;
+    min-height: 23rem;
+    border-radius: 5px;
+}
+
+.gameArea__game {
+    flex: 0 0 calc(100% - 23rem);
+}
+
+.gameArea__dashboard {
+    position: relative;
+    flex: 0 0 23rem;
+    padding: 8% 2rem 2rem 4rem;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameArea__button {
+    background: #bada55;
+    padding: 0.1rem 3rem;
+    border: 1px solid #eee;
+    color: #000;
+    border-radius: 0.5rem;
+    font: inherit;
+    width: 100%;
+    margin-top: 30px;
+    border: 0;
+    outline: none;
+}
+
+/* .timer */
+
+.timer {
+    padding: 1rem;
+    flex: 0 0 40%;
+    
+}
+
+.timer__label {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.timer__value--minutes {
+    font-size: 2rem;
+    display: inline;
+}
+
+.timer__value--seconds {
+    font-size: 3rem;
+    display: inline;
+}
+
+.imgWrapper {
+  flex: 0 0 20rem;
+  height: 20rem;
+  overflow: hidden;
+  background: url(https://images.pexels.com/photos/1307662/pexels-photo-1307662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+  background-size: auto 20rem;
+}
+
+#gameContainer {
+  overscroll-behavior: contain;
+}

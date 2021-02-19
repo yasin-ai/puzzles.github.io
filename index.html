@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/puzzle.css">
+
+</head>
+
+<body>
+  
+  <main class="app">
+   
+    <div class="container">
+      <header class="mainHeader">
+        <h1 class="mainHeader__appName">HISTORIC PUZZLE BY INNOVATIX</h1>
+      </header>
+      <section class="gameArea left">
+        <h1 class="sr-only">Puzzle</h1>
+        <div class="gameArea__gameWrapper">
+          <div id="gameContainer" class="gameArea__game"></div>
+          <div class="gameArea__dashboard">
+            <div class="timer">
+              <span class="timer__label">Time</span>
+              <div class="timer__time">
+                <span id="minute" class="timer__value timer__value--minutes">00</span>
+                <span class="unit">min</span>
+              </div>
+              <div class="timer__time">
+                <span id="seconds" class="timer__value timer__value--seconds">00</span>
+                <span class="unit">s</span>
+              </div>
+            </div>
+            <!--             <div class="imgWrapper" id="preview"></div> -->
+            <button id="startButton" class="gameArea__button">Start</button>
+          </div>
+        </div>
+      </section>
+      <section class="gameArea right">
+        <h1 class="sr-only">Puzzle</h1>
+        <div class="gameArea__gameWrapper">
+          <div id="gameContainer2" class="gameArea__game"></div>
+          <div class="gameArea__dashboard">
+            <div class="timer">
+              <span class="timer__label">Time</span>
+              <div class="timer__time">
+                <span id="minute2" class="timer__value timer__value--minutes">00</span>
+                <span class="unit">min</span>
+              </div>
+              <div class="timer__time">
+                <span id="seconds2" class="timer__value timer__value--seconds">00</span>
+                <span class="unit">s</span>
+              </div>
+            </div>
+            <!--             <div class="imgWrapper" id="preview"></div> -->
+            <button id="startButton2" class="gameArea__button">Start</button>
+          </div>
+        </div>
+      </section>
+      <section class="gameArea right">
+        <h1 class="sr-only">Puzzle</h1>
+        <div class="gameArea__gameWrapper">
+          <div id="gameContainer3" class="gameArea__game"></div>
+          <div class="gameArea__dashboard">
+            <div class="timer">
+              <span class="timer__label">Time</span>
+              <div class="timer__time">
+                <span id="minute3" class="timer__value timer__value--minutes">00</span>
+                <span class="unit">min</span>
+              </div>
+              <div class="timer__time">
+                <span id="seconds3" class="timer__value timer__value--seconds">00</span>
+                <span class="unit">s</span>
+              </div>
+            </div>
+            <!--             <div class="imgWrapper" id="preview"></div> -->
+            <button id="startButton3" class="gameArea__button">Start</button>
+          </div>
+        </div>
+      </section>
+    </div>
+   
+  </main>
+  <script src="js/boxes.js"></script>
+  <script src="js/puzzle.js"></script>
+  <script src="js/puzzle2.js"></script>
+  <script src="js/puzzle3.js"></script>
+</body>
+
+</html>
